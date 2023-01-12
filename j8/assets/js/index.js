@@ -1,8 +1,14 @@
-
+import { Ingredient } from './ingredient.js';
 
 let availableIngredients = []
+window.addEventListener("DOMContentLoaded", function(){
+    
+});
+
+
 
 class Ingredient {
+    
     let Bacon = new Ingredients("Bacon","assets/img/bacon.png");
     let Carrots = new Ingredients("Carrots","assets/img/carrots.png");
     let Cheese = new Ingredients("Cheese","assets/img/cheese.png");
@@ -15,7 +21,9 @@ class Ingredient {
     let Pepper = new Ingredients("Pepper","assets/img/pepper.png");
     let Potato = new Ingredients("Potato","assets/img/potato.png");
     let Tomato = new Ingredients("Tomato","assets/img/tomato.png");
+
+    
 };
 
-console.log(Bacon);
-console.log(Carrots);
+console.log(availableIngredients[Bacon]);
+console.log(availableIngredients[Carrots]);
